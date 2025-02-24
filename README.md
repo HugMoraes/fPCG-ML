@@ -4,13 +4,13 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 This repository contains the implementation code and experimental results for the paper:
-**"Análise de Áudio PCG: Aplicação de Machine Learning para Monitoramento de Batimentos Cardíacos Fetais"** by Hugo Carvalho de Moraes, Juan Gabriel Colonna, Rafael Castilho Carvalho. The paper can also be found in the repository as **Paper.pdf**.
+**"Estimativa de bpm fetais em fonocardiogramas usando aprendizado profundo e processamento digital de sinais"** by Hugo Carvalho de Moraes, Juan Gabriel Colonna, Rafael Castilho Carvalho. The paper can also be found in the repository as **Paper.pdf**.
 
 <!-- (Published in [Journal/Conference Name], [Year]). -->
 
 ## 📄 Abstract
 
-Fetal heart rate monitoring through phonocardiograms (fPCG) enables noninvasive assessment of fetal health, aiding in the early detection of potential complications during pregnancy. However, the extraction of fetal heart signals is hindered by various noise sources, such maternal heart sounds and ambient noise, making accurate frequency estimation difficult. This study proposes a regression model based on convolutional neural networks (CNN), leveraging MFCC/Delta coefficients extracted from prefiltered audio segments (band pass and wavelet filtering). Additionally, a data augmentation technique was applied to address the scarcity of labeled instances. Experiments were conducted using the SUFHSDB dataset, achieving a mean absolute error (MAE) of approximately $3.87$ BPM, demonstrating the effectiveness of the proposed model. The results suggest that deep learning-based approaches, combined with preprocessing strategies and data augmentation, appear promising for the estimation of fetal heart rate.
+Fetal heart rate monitoring through phonocardiograms (fPCG) enables noninvasive assessment of fetal health, aiding in the early detection of potential complications during pregnancy. However, the extraction of fetal heart signals is hindered by various noise sources, such as maternal heart sounds and ambient noise, making accurate frequency estimation difficult. This study proposes a regression model based on Convolutional Neural Networks (CNN), leveraging MFCC and Delta-MFCC coefficients extracted from prefiltered audio segments (bandpass and wavelet filtering). Additionally, a data augmentation technique was applied to address the scarcity of labeled instances. Experiments were conducted using the SUFHSDB dataset, achieving a mean absolute error (MAE) of $3,87 \pm 0,13$ bpm. The results suggest that deep learning-based approaches, combined with preprocessing strategies and data augmentation, are promising for the estimation of fetal heart rate.
 
 ## 📂 Repository Structure
 
